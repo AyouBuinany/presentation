@@ -612,11 +612,7 @@ margin-left: 40px;
             
        }
 @media (max-width: 500px){
-    #check-menu  {
-        display: block;
-cursor: pointer;
-    
-}
+
 .div1{
     position: relative;
     z-index: 1;
@@ -648,119 +644,20 @@ margin-top: -12px;
 margin-bottom: 49px;
 
 }
-.link2{
+
    
-text-decoration: none;
-color: white;
-border-radius: 30px;
-padding: 17px 86px;
-background-color: rgb(23, 137, 230);
-box-shadow: 1px 1px 0px rgb(23, 137, 230);
-}
+    .link2 {
+        text-decoration: none;
+        color: white;
+        border-radius: 30px;
+        padding: 17px 60px;
+        background-color: rgb(23, 137, 230);
+        box-shadow: 1px 1px 0px rgb(23, 137, 230);
+    
+        }
 
     
-    #check-menu span {
-       border:1px solid white;
-       display: block;
-   
-     background-color: green;
-     width: 30px;
-     position: relative;
-     margin-top: 26px;
-   
-    margin-left: 18px;
-     
-    }
-    #check-menu span::before {
-        content: "";
-       border:1px solid white;
-     top:20px;
-     position: absolute;
-     
-
-        top: -10px;
-
-        width: 28px;
-
-        left: 0px;
-            
-    }
-    #check-menu span::after {
-        content: "";
-       border:1px solid white;
-     top:20px;
-     position: absolute;
-     
-
-        top: 8px;
-
-        width: 28px;
-
-        left: 0px;
-          
-        
-    }
-     .navbar #check-one:checked ~  #check-menu span{
-        border: none;
-            }
-     .navbar #check-one:checked ~  #check-menu span::after{
-
-        transform: rotate(130deg);
-    }
-     .navbar #check-one:checked ~  #check-menu span::before{
-       
-        transform: rotate(50deg);
-margin-top: 19px;
-            }
-    .navbar #check-one:checked ~ .uli {
-        display: flex;
-        justify-content: center;
-        max-height: 200px;
-        flex-direction: column;
-        margin-top: 225px;
-       
-        padding-top: 66px;
-        background-color: black;
-        top: 50px;
-        left: 0px;
-    }
-     .navbar #check-one:checked ~ .uli li{
     
-        display: block;
-      
-        max-height: 200px;
-      
-        
-        text-align: center;
-        margin:-10px 50px auto auto;
-  
-        padding: 25px;
-        list-style-type: none;
-    width: 100%;
-    height: 100px;
-    border-bottom: 12px solid white;
-    background-color: black;
-    }
-    .uli li {
-       
-        max-height: 200px;
-        text-align: center;
-        margin: -3px 50px auto auto;
-        padding: 29px;
-        list-style-type: none;
-        width: 100%;
-        height: 105px;
-        
-        background-color: black;
-    }
-
-    .navbar #check-one:not(:checked) ~ .uli{
-        display: none;
-    }
-     .navbar #check-one:not(:checked) ~ .uli li{
-        
-      max-height: 0px;
-    }
     .divGeneral {
         width: 100%;
         height: 50%;
@@ -1139,4 +1036,181 @@ margin-top: 130px;
     margin-left: 64px;
     margin-top: 5px;
   }  
+ @media (max-width:1137px){
+    #check-menu  {
+        display: block;
+cursor: pointer;
+    
+
+}
+#check-menu span {
+    border:1px solid white;
+    display: block;
+
+
+  width: 30px;
+  position: relative;
+  margin-top: 26px;
+
+ margin-left: 18px;
   
+ }
+ #check-menu span::before {
+     content: "";
+    border:1px solid white;
+  top:20px;
+  position: absolute;
+  
+
+     top: -10px;
+
+     width: 28px;
+
+     left: 0px;
+         
+ }
+ #check-menu span::after {
+     content: "";
+    border:1px solid white;
+  top:20px;
+  position: absolute;
+  
+
+     top: 8px;
+
+     width: 28px;
+
+     left: 0px;
+       
+     
+ }
+  .navbar #check-one:checked ~  #check-menu span{
+     border: none;
+         }
+  .navbar #check-one:checked ~  #check-menu span::after{
+
+     transform: rotate(130deg);
+ }
+  .navbar #check-one:checked ~  #check-menu span::before{
+    
+     transform: rotate(50deg);
+margin-top: 19px;
+         }
+ .navbar #check-one:checked ~ .uli {
+     display: flex;
+     justify-content: center;
+     max-height: 200px;
+     flex-direction: column;
+     margin-top: 225px;
+    
+     padding-top: 66px;
+     background-color: black;
+     top: 50px;
+     left: 0px;
+ }
+  .navbar #check-one:checked ~ .uli li{
+ 
+     display: block;
+   
+     max-height: 200px;
+   
+     
+     text-align: center;
+     margin:-10px 50px auto auto;
+
+     padding: 25px;
+     list-style-type: none;
+ width: 100%;
+ height: 100px;
+ border-bottom: 12px solid white;
+ background-color: black;
+ }
+ .uli li {
+    
+     max-height: 200px;
+     text-align: center;
+     margin: -3px 50px auto auto;
+     padding: 29px;
+     list-style-type: none;
+     width: 100%;
+     height: 105px;
+     
+     background-color: black;
+ }
+
+ .navbar #check-one:not(:checked) ~ .uli{
+     display: none;
+ }
+  .navbar #check-one:not(:checked) ~ .uli li{
+     
+   max-height: 0px;
+ }
+ .dv1 {
+    width: 90%;
+    height: 270px;
+    text-align: center;
+    margin: 20px 30px;
+    color: gray;
+    font-size: 15px;
+    font-family: serif;
+    letter-spacing: 3px;
+    line-height: 30px;
+}
+.dv2 h1:first-child {
+    font-weight: bold;
+    text-align: center;
+    font-size: 26px;
+}
+.dv2 #dd1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.paraflex2 button {
+    border: none;
+    background-color: rgb(0, 122, 255);
+    color: white;
+    padding: 9px 151px;
+    font-size: 13px;
+    border-radius: 30px;
+    margin-left: 63px;
+}
+.div1p {
+  
+    width: 100%;
+    height: 31%;
+    background-image: url(../images/imageSimplon.png);
+    background-size: cover;
+}
+.div2p {
+    background-color: rgb(0, 122, 255);
+    display: flex;
+    height: 20%;
+}
+.divCh1 {
+    border-right: 1.5px dashed black;
+    margin-top: 3px;
+}
+.divCh {
+    width: 32%;
+    height: 65%;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+.paraflex {
+    width: 50%;
+    margin-left: 47px;
+}
+.paraflex1 {
+    padding: 10px 0px;
+    font-size: 18px;
+    font-family: monospace;
+    margin-left: 144px;
+}
+ }
