@@ -3,7 +3,9 @@
 margin:0;
 box-sizing: border-box;
 }
-
+body{
+    overflow-x: hidden;
+}
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 /*header*/
      .stick{
@@ -13,14 +15,11 @@ box-sizing: border-box;
 .d1{
     background-image: url(../images/imageSlider1.jpg);
     width: 100%;
-    height: 765px;
+    height: 600px;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     margin-top: -10px;
-
-   
-    
 }
 
 nav{
@@ -93,7 +92,7 @@ font-family: 'Montserrat';
 .div1{
     position: relative;
     z-index: 1;
-    margin-top: -300px;
+    top: -300px;
     left: 20px;
     color: white;
   padding: 20px;
@@ -102,6 +101,14 @@ font-family: 'Montserrat';
     font-size: 45px;
     color: white;
 
+}
+
+.div1 div:nth-of-type(1) {
+    width: 500px;
+    height: 150px;
+    text-align: center;
+    display: flex;
+   
 }
 
 
@@ -144,7 +151,13 @@ box-shadow: 1px 1px 0px rgb(23, 137, 230);
     margin-top: 20px;
     }
 
-
+    .dvPére {
+        display: flex;
+        width: 95%;
+        height: 135px;
+      justify-content: center;
+        font-weight: bold;
+    }
 
 /*page Homme*/
 
@@ -170,8 +183,7 @@ width: 30px;
 height: 30px;
 background-repeat: no-repeat;
 background-size: cover;
-margin-left: 150px;
-
+margin-left: 50%;
 }
 
 .divC2 p:first-child{
@@ -180,8 +192,7 @@ width: 30px;
 height: 30px;
 background-repeat: no-repeat;
 background-size: cover;
-margin-left: 150px;
-
+margin-left: 50%;
 }
 
 .divC3 p:first-child{
@@ -190,8 +201,7 @@ width: 30px;
 height: 30px;
 background-repeat: no-repeat;
 background-size: cover;
-margin-left: 150px;
-
+margin-left: 50%;
 }
 .divpran2{
 width: 100%;
@@ -203,8 +213,7 @@ display: flex;
 .divGeneral{
 width: 100%;
 height:50%;
-margin-top: 180px;
-
+margin-top: -200px;
 }
 .divBlue{
 background-color: rgb(0, 122, 255);
@@ -254,7 +263,7 @@ animation: anim1 10s infinite ease-in-out;
 
 .divprans3{
 width: 100%;
-height: 39em;
+height: 40em;
 margin-top: 70px;
 }
 .divprans3Img{
@@ -514,8 +523,6 @@ background-color: #80808014;
 #dd1{
 width: 60%;
 height: 100%;
-
-
 }
 #dd1 h1{
 text-align: center;
@@ -544,7 +551,6 @@ text-decoration: none;
     height: 110px;
     color: gray;
     background-color: black;
-    margin-top: 200px;
     display: flex;
 }
 .df1{
@@ -554,14 +560,7 @@ text-decoration: none;
     font-size: 20px;
 }
 .dfc1{
-    
-    margin-left: 340px;
     margin-top: 50px;
-    
-}
-
-.dfc2{
-    margin-left: 170px;
 }
 .ii{
     background-color: white;
@@ -598,12 +597,8 @@ width: 32px;
 height: 30px;
 }
 #ulli{
-    width: 278px;
-height: 26px;
-display: flex;
-
-margin-top: 15px;
-margin-left: 40px;
+display: inline-flex;
+width: 200px;
 }
 
 .d1 .navbar #check-one{
@@ -611,50 +606,46 @@ margin-left: 40px;
     
             
        }
-@media (max-width: 500px){
+@media (max-width: 990px){
+    
+    .div1 {
+        left: initial;   
+    }
+    .div1 div:nth-of-type(1){
+        justify-content: center;
+        flex-direction: column;
+        width:auto;
+    }
+    .div1 div:nth-of-type(1) p{
+        margin-bottom: 60px;
+    }
+   
 .divP1{
     height: 162px;
 }
 .divP1 p:nth-of-type(2){
     font-size: 18px;
 }
-.divP1 p:nth-of-type(1) {
-    
-    margin-left: 200px;
-}
 .divP1 h1:nth-of-type(1) {
     
     margin-bottom: 15px;
     color: gray;
 }
-.div1{
-    position: relative;
-    z-index: 1;
-    margin-top: -336px;
-   text-align: center;
+
+.div1 h1{
+    font-size: 30px;
     color: white;
-  padding: 20px;
 
 }
-.div1 h1{
-    font-size: 25px;
-    color: white;
-
+#paragraph1 {
+    margin-left: 0;
+    font-size: 17px;
 }
 .link1 {
-    border: 2.5px solid white;
-    text-decoration: none;
-    color: white;
-    border-radius: 30px;
-    display: block;
-    width: 154px;
     padding: 13px 23px;
     margin-top: -12px;
-    margin-bottom: 49px;
-    margin-left: 133px;
+    margin-bottom: 50px;
 }
-
-   
     .link2 {
         text-decoration: none;
         color: white;
@@ -662,22 +653,18 @@ margin-left: 40px;
         padding: 17px 60px;
         background-color: rgb(23, 137, 230);
         box-shadow: 1px 1px 0px rgb(23, 137, 230);
-    
         }
-
-    
-    
     .divGeneral {
         width: 98%;
         height: 50%;
-        margin-top: 250px;
         text-align: center;
     }
     .divBlue p:nth-of-type(1) {
-        text-align: center;
-        color: white;
-        line-height: 25px;
-        letter-spacing: 0px;
+        
+        line-height: 21px;
+        letter-spacing: 1px;
+        font-size: 10px;
+        margin-left: 20px;
     }
     .divBlue h1:first-child {
         text-align: center;
@@ -691,22 +678,8 @@ margin-left: 40px;
         height: 50%;
         font-size: 12px;
     }
-    .divpran2 div:first-child {
-        width: 100%;
-        height: 50%;
-        background-image: url(../images/image3.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        animation: anim1 10s infinite ease-in-out;
-    }
-    .dvPére {
-        display: flex;
-        margin-top: 107px;
-        width: 95%;
-        height: 135px;
-        text-align: center;
-        font-weight: bold;
-    }
+   
+
     .dv22 #dd11 {
         width: 100%;
         height: 100%;
@@ -731,16 +704,24 @@ margin-left: 40px;
         .divpran2 {
             width: 100%;
             margin-top: 29px;
-            height: 500px;
+           
             display: flex;
             justify-content: center;
             flex-direction: column;
         
     }
+    .divpran2 div:first-child {
+        width: 100%;
+        height: 50%;
+        background-image: url(../images/image3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        animation: anim1 10s infinite ease-in-out;
+    }
 
 
     #divGen {
-        width: 100%;
+        width:90%;
         height: 50%;
         display: flex;
         justify-content: center;
@@ -767,13 +748,12 @@ margin-left: 40px;
     margin-top: -15px;
 }
 #div1p {
-    height: 30%;
+    height: 40%;
     background-image: url(../images/imageSimplon.png);
     background-size: cover;
 }
 .div2p {
     background-color: rgb(0, 122, 255);
-    display: flex;
     height: 60%;
     margin-top: -2px;
     justify-content: center;
@@ -781,7 +761,7 @@ margin-left: 40px;
 }
         .dv2 {
             text-align: center;
-            width: 100%;
+            width: 95%;
             height: 296px;
             margin-top: 75px;
         }    
@@ -790,7 +770,7 @@ margin-left: 40px;
     width: 90%;
     height: 200px;
     text-align: center;
-    margin: 20px 30px;
+    margin: 45px 30px 0 auto;
     color: gray;
     font-size: 13px;
     font-family: serif;
@@ -801,8 +781,8 @@ margin-left: 40px;
     border: none;
     background-color: rgb(0, 122, 255);
     color: white;
-    padding: 12px 149px;
-    font-size: 22px;
+    padding: 10px 135px;
+    font-size: 12px;
     border-radius: 30px;
 }
 .paraflex{
@@ -840,7 +820,7 @@ margin-left: 40px;
         .dfc2 {
             margin-left: 15px;
             margin-top: 2px;
-            /* height: 113px; */
+            
         }
         #tb {
         background-color: #eeeeee3d;
@@ -858,11 +838,8 @@ margin-left: 40px;
         margin-top: 10px;
     }
     #ulli {
-        width: 168px;
+        width: 150px;
         height: 41px;
-        display: flex;
-        margin-top: 15px;
-        margin-left: 100px;
     }
     #tb tr td {
         border: 1px solid #0000001c;
@@ -923,10 +900,10 @@ margin-left: 40px;
         margin-left: 29px;
         margin-top: 2px;
     }
-
 }
-/*page3*/
 
+
+/*  !!!!!!!!!!!!!!!   */
       .d1p{
 background-image: url(../images/imgeSlider4.jpg);
 
@@ -967,12 +944,8 @@ border: none;
 float:left;
         }
         .dvPére{
-           display: flex;
-            margin-top: 180px;
-            width:100%;
-            height: 135px;
-            text-align: center;
-            font-weight: bold;
+        
+            margin-top: auto;
         }
         .dvPére p{
             margin-top: 133px;
@@ -1058,50 +1031,52 @@ margin-top: 130px;
 }
 
  @media (min-width:300px ) and (max-width:1137px){
+    body {
+        overflow-x: hidden;
+    }
     #check-menu  {
         display: block;
 cursor: pointer;
     
 
 }
+
+.divprans3 {
+    width: 100%;
+    height: 28em;
+    margin-top: 70px;
+}
 #check-menu span {
-    border:1px solid white;
+    border:2px solid white;
     display: block;
 
 
-  width: 30px;
-  position: relative;
-  margin-top: 26px;
-
- margin-left: 18px;
-  
+    width: 27px;
+    position: relative;
+    margin-top: 26px;
+    margin-left: 18px;
  }
  #check-menu span::before {
      content: "";
-    border:1px solid white;
-  top:20px;
+    border:2px solid white;
   position: absolute;
-  
-
      top: -10px;
-
-     width: 28px;
-
-     left: 0px;
+     width: 23px;
+     left: -2px;
          
  }
  #check-menu span::after {
      content: "";
-    border:1px solid white;
+    border:2px solid white;
   top:20px;
   position: absolute;
   
 
      top: 8px;
 
-     width: 28px;
+     width: 23px;
 
-     left: 0px;
+     left: -2px;
        
      
  }
@@ -1118,24 +1093,25 @@ cursor: pointer;
 margin-top: 19px;
          }
  .navbar #check-one:checked ~ .uli {
-     display: flex;
      justify-content: center;
      max-height: 200px;
      flex-direction: column;
      margin-top: 225px;
-    
-     padding-top: 66px;
+     padding-top: 60px;
      background-color: black;
-     top: 50px;
-     left: 0px;
  }
   .navbar #check-one:checked ~ .uli li{
-    display: block;
-    margin: -10px 72px auto auto;
+
+    margin: -10px 0px 0px auto;
     padding: 24px;
     list-style-type: none;
     height: 100px;
     border-bottom: 12px solid white;
+}
+#a5 {
+
+    padding: 10px 73px 10px;
+    border-radius: 40px;
 }
  
  .uli li {
@@ -1169,6 +1145,7 @@ display: none;
  /*ul*/
  .navbar #check-one:not(:checked) ~ .uli{
      display: none;
+     
  }
  /*Li*/
   .navbar #check-one:not(:checked) ~ .uli li{
@@ -1187,89 +1164,33 @@ display: none;
     margin-top: -100px;
     margin-left: 53px;
 }
-#div1p {
-    height: 30%;
-    background-image: url(../images/imageSimplon.png);
-    background-size: cover;
-}
 .d1 {
     background-image: url(../images/imageSlider1.jpg);
     width: 100%;
     height: 439px;
 }
-/*
-
-
-.link2 {
-    padding: 17px 40px;
-    display: block;
-    width: 268px;
-    margin-left: 15px;
-}
-.link1 {
-   
-    width: 154px;
-    padding: 13px 23px;
-    margin-left: 77px;
-}
-.divGeneral {
-    margin-top: 100px;
-}
-.divpran2 {
-    width: 120%;
-}
-.div2p {    
-width: 120%;
-}
-.paraflex2 button {
-    padding: 12px 100px;
-    margin-left: 26px;
-}
-/*.paraflex1 {
-    padding: 10px 0px;
-    font-size: 16px;
-    font-family: monospace;
-    margin-left: auto;
-}
-.paraflex2 button{
-    border: none;
-    background-color: rgb(0, 122, 255);
-    color: white;
-    padding: 15px 95px;
-    font-size: 14px;
-    border-radius: 30px;
-}
-.divBlue h1:first-child {
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    font-size: 26px;
-}
-.divC1 p:first-child {
-    margin-left: 0px;
-   
-}
-.divBlue p:nth-of-type(1) {
-    text-align: center;
-    color: white;
-    line-height: 28px;
-    letter-spacing: 1px;
-}
-.dv2{
-    text-align: center;
-    width: 100%;
-    height: 288px;
-    margin-top: 362px;
-}
-.paraflex {
-    width: 50%;
-    height: 49px;
+.dv1 {
+    height: 330px;
 }
 .dv2 #dd1 {
     width: 100%;
-    height: 53%;
+    height: 50%;
     display: flex;
-    justify-content: center;
-    margin-top: 45px;
-}*/
+}
+#dd1 .paraflex1 {
+    padding: 10px 0px;
+    font-size: 16px;
+    font-family: monospace;
+}
+.div1 .link2{
+    padding: 15px 21px;
+}
+.divP1 {
+    height: 300px;
+    text-align: center;
+    margin-left: 5px;
+}
+.div2p {
+    height: 40%;
+}
 }
