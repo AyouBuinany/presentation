@@ -20,6 +20,7 @@ body{
     background-repeat: no-repeat;
     position: relative;
     margin-top: -10px;
+    background-position: center;
 }
 
 nav{
@@ -63,7 +64,6 @@ li:first-child{
 }
 #a5{
     font-weight: bold;
- 
 background-color: rgb(23, 137, 230);
 padding: 10px;
 border-radius: 10px ;
@@ -202,6 +202,7 @@ height: 30px;
 background-repeat: no-repeat;
 background-size: cover;
 margin-left: 50%;
+background-position: center;
 }
 .divpran2{
 width: 100%;
@@ -280,6 +281,7 @@ height: 67%;
 
 background-image: url(../images/imageSimplon.png);
 background-size: cover;
+background-position: center;
 }
 .div2p{
 background-color: rgb(0, 122, 255);
@@ -297,7 +299,7 @@ text-align: center;
 color: white;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size: 19px;
-margin-left: 20px;
+margin-left: auto;
 margin-top: 48px;
 
 }
@@ -444,6 +446,7 @@ margin-left: 196px;
     background-repeat: no-repeat;
     position: relative;
     margin-top: -10px;
+    background-position: center;
 
    
     
@@ -477,6 +480,7 @@ margin-left: 196px;
     background-size: cover;
     background-repeat: no-repeat;
     animation: anim2 10s infinite ease-in-out ;
+    background-position: center;
 }
 #dul{
     display: block;
@@ -511,7 +515,7 @@ height: 100%;
 background-image: url(../images/arif-riyanto-G1N9kDHqBrQ-unsplash.jpg);
 background-size: cover;
 background-repeat: no-repeat;
-
+background-position: center;
 }
 .ddv2{
 margin-top: 80px;
@@ -737,7 +741,7 @@ width: 200px;
         color: white;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 17px;
-        margin-left: 20px;
+        margin-left: auto;
         margin-top: 1px;
         border: none;
 }
@@ -913,6 +917,7 @@ background-image: url(../images/imgeSlider4.jpg);
     background-repeat: no-repeat;
     position: relative;
     margin-top: -10px;
+    background-position: center;
       }
       .dvright{
           width:50%;
@@ -1030,7 +1035,7 @@ margin-top: 130px;
     display: none;
 }
 
- @media (min-width:300px ) and (max-width:1137px){
+ @media (min-width:300px ) and (max-width:1146px){
     body {
         overflow-x: hidden;
     }
