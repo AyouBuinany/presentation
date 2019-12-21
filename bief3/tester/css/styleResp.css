@@ -11,6 +11,9 @@ body{
      .stick{
         background-color: black;
      }  
+     #tb1{
+         display: none;
+     }
      
 .d1{
     background-image: url(../images/imageSlider1.jpg);
@@ -606,12 +609,22 @@ width: 200px;
 }
 
 .d1 .navbar #check-one{
-    display:none;
-    
-            
+    display:none;     
        }
+     
 @media (max-width: 990px){
-    
+    table:first-of-type{
+        display: none;
+    }
+    #tb1{
+        display: initial;
+    }
+    .Y button {
+        padding: 10px;
+        background-color: #eeeeee3d;
+        color: gray;
+        width: 100%;
+    }
     .div1 {
         left: initial;   
     }
@@ -785,12 +798,12 @@ width: 200px;
     border: none;
     background-color: rgb(0, 122, 255);
     color: white;
-    padding: 10px 135px;
-    font-size: 12px;
+    padding: 10px 130px;
+    font-size: 9px;
     border-radius: 30px;
 }
 .paraflex{
-    width: 100%;
+    width: auto;
     height: 65px;
     margin-left: -14px;
 }
@@ -831,7 +844,7 @@ width: 200px;
         width: 90%;
         height: 200px;
         margin-top: -100px;
-        margin-left: 25px;
+        margin-left: auto;
     }
     .df1 {
         width: 80%;
@@ -1167,7 +1180,7 @@ display: none;
     width: 86%;
     height: 200px;
     margin-top: -100px;
-    margin-left: 53px;
+    margin-left: auto;
 }
 .d1 {
     background-image: url(../images/imageSlider1.jpg);
