@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="css/all.min.css">
-   
+    <link rel="stylesheet" href="css/mediaquery.css">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -30,10 +30,11 @@
                     <img src="img/email.png" alt="telephone" class="telephimg">
                 </li>
                 <li class="ls1" id="ls"><a href="acc.html">HOME</a></li>
-                <li class="ls1"><a href="galery.html">ABOUT US</a></li>
+                <li class="ls1"><a href="galery.html">Galery</a></li>
                 <li class="ls1"> CITY GUIDE</li>
                 <li class="ls1">BLOGS</li>
                 <li class="ls1">CONTACT US</li>
+                <li class="ls1"><a href="#">ABOUT US</a></li>
 
             </ul>
         </nav>
@@ -61,6 +62,12 @@
                 <div class="images" id="imgs3"></div>
                 <div class="images" id="imgs4"></div>
                 <div class="images" id="imgs5"></div>
+                <!---->
+                <div class="images" id="imgs1"></div>
+                <div class="images" id="imgs2"></div>
+                <div class="images" id="imgs3"></div>
+                <div class="images" id="imgs4"></div>
+                <div class="images" id="imgs5"></div>
              
 
         </div>
@@ -72,11 +79,11 @@
                     Lorem ipsum dolor sit amet,<br> consectetur adipiscing elitquisque <br> tempus ac eget diam et laoreet <br> phasellus.
                     </p>
 
-                    <button>
+                    <button id="backbtn">
                     <i class="fas fa-arrow-left"></i>
 
                     </button>  
-                    <button>
+                    <button id="nextbtn">
                     <i class="fas fa-arrow-right"></i>
                     </button>  
             </div>
@@ -188,22 +195,22 @@
                             Fusce dapibus
                         </h1>
                 <div class="divmove" id="movediv">
-                                <div id="dm1">
+                                <div class ="listvideo" id="dm1">
                                     
                                 </div>
-                                <div id="dm2">
+                                <div class ="listvideo"  id="dm2">
                                 
                                 </div>
-                                <div id="dm3">
+                                <div class ="listvideo"  id="dm3">
                                 
                                 </div>
-                                <div id="dm4">
+                                <div class ="listvideo"  id="dm4">
                                 
                                 </div>
-                                <div id="dm5">
+                                <div class ="listvideo"  id="dm5">
                                     
                                 </div>
-                                <div id="dm6">
+                                <div class ="listvideo"  id="dm6">
                                 
                                 </div>
                 </div>    
@@ -275,20 +282,7 @@
         </div>
         </footer>
         <script src="js/all.min.js"></script>
-        <script>
-        
-        
-        var email = document.getElementById("input1").value;
-var btnValid = document.getElementById("lbtn");
-var exp= /^\w+([.-]?\w+)@\w+([.-]?\w+)(.\w{2,3})+$/;
-function valid(){
-    if(!exp.test(email)){
-        alert("email pas valid!");
-    }
-    else {
-        alert("email est valid");
-    }
-    }
+        <script src="js/file.js">
     </script>
 </body>
 </html>

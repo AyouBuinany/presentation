@@ -1,4 +1,5 @@
-@media (max-width:1024px){
+
+/*@media (max-width:1024px){
 .chfooter p:nth-of-type(2) {
 margin-left: 30%;
 
@@ -532,7 +533,6 @@ top: 709%;
         margin-left: -215px;
         }
         
-        /*galry*/
         #ddrow {
              margin-top: 0px; 
             width: 90%;
@@ -584,7 +584,7 @@ top: 709%;
         #colm1{
             height: 144px;
         }
-        }
+    }
 
 
 
@@ -759,4 +759,4 @@ top: 709%;
                 .divsfooter div:nth-of-type(1) h1 {
                     left: 10%;
                 }
-        }
+        }*/
