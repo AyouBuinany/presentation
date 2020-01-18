@@ -611,14 +611,35 @@ width: 200px;
 .d1 .navbar #check-one{
     display:none;     
        }
-     
+     @media (min-width:320px) and (max-width:400px){
+        #tb1 {
+            display: initial;
+            margin-left: 0%;
+        }
+        #dp1{
+            width: 113%;
+        }
+        #vd3{
+            width: 113%;
+        }
+
+     }
+     @media (min-width:765px) and (max-width:800px){
+        #tb1 {
+            display: initial;
+            margin-left: 10%;
+        }
+     }
 @media (max-width: 990px){
     table:first-of-type{
         display: none;
     }
-    #tb1{
-        display: initial;
-    }
+
+        /*#tb1 {
+            display: initial;
+            margin-left: 10%;
+        }
+    */
     .Y button {
         padding: 10px;
         background-color: #eeeeee3d;

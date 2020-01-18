@@ -1,10 +1,13 @@
+html{
+    scroll-behavior: smooth;
+}
 *{
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
 .navcolor{
-    background-color: black;
+    background-color: #4D494A;
     position: fixed;
     z-index: 10;
     width: 100%;
@@ -774,7 +777,7 @@ display: none;
                 top: 10px;
         }
         #checkOne:not(:checked) ~  ul {
-background-color: black;
+background-color: #4D494A;
 height: 34px;
 position: fixed;
 top: 0px;
@@ -1378,7 +1381,7 @@ display: none;
                 top: 10px;
         }
         #checkOne:not(:checked) ~  ul {
-background-color: black;
+background-color: #4D494A;
 height: 34px;
 position: fixed;
 top: 0px;
