@@ -109,21 +109,17 @@ top: 697px;
 font-weight: bold;
 font-size: 25px;
 }
-/*#listImgs {
-width: 70%;
-height: 250px;
-display: flex;
-position: absolute;
-right: 0px;
-top: 86%;
-}*/
 #listImgs{
 width: 77%;
 height: 250px;
 display: flex;
-overflow: hidden;
+overflow-x: scroll;
 order: 2;
 }
+#listImgs::-webkit-scrollbar{
+display: none;
+}
+
 .images{
 min-width: 200px;
 height: 100%;

@@ -7,12 +7,12 @@ nextbtn.addEventListener("click",nextSlid);
 window.addEventListener("scroll",stikyNav);
 function backslid(){
     x = listimg.scrollLeft;
-listimg.scrollLeft = x - 200;
+listimg.scrollLeft = x + 200;
 console.log("backslid");
 }
 function nextSlid(){
 x = listimg.scrollLeft;
-listimg.scrollLeft = x +  200;
+listimg.scrollLeft = x -  200;
 console.log(2);
 
 }
