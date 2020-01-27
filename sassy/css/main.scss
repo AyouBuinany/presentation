@@ -1,0 +1,102 @@
+
+body{
+    background-color: gray;
+    
+   
+}
+  $class_images :
+   dd  '../img/image1.png',
+   dd1  '../img/image2.png',
+   dd2  '../img/image3.png';
+
+
+#h1{
+    font: { size: 50px;
+        family:tahoma;
+        weight:bold;
+    style:italic;};
+    color: burlywood;
+            text-align: center;  
+            animation: an1 5.1s infinite ease-in-out;
+            @keyframes an1 {
+            0%,100%{
+                text : {
+                    decoration:underline;
+                    transform:capitalize;
+
+                };
+                color:darkkhaki;
+            }
+           50% {
+            text : {
+                decoration:overline;
+                transform:lowercase;
+
+            };
+            color: coral;
+
+            }
+                
+            }    
+    
+    }
+section{  
+  
+   background-color: white;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+}
+.divs{
+     
+
+@each $li in  $class_images {
+    .#{nth($li,1)}{
+        background: {
+            image:url(#{nth($li,2)});
+            repeat:no-repeat;
+            size: cover;
+        };
+        height: 275px;
+       
+    }
+    div:last-child{
+        border: {
+            width: 1.5px;
+            style:dotted;
+            color: #6fbfc9;
+            radius:10px;
+        };
+        margin: 20px;
+        cursor: pointer;
+    }
+    button{
+        width: 50%;
+        height: 50px;
+        background-color: grey;
+        color: white;
+        border: none;
+        border-radius:30px;
+        font: {
+            family:tahoma;
+            weight:bold;
+        };
+        
+    
+   
+    &:hover{
+        color: black;
+        transform: scale(1.3);
+        background-color: white;
+       text-decoration: underline;
+        
+    }
+    @extend  div:last-child
+}
+}
+}
+
+ 
+
+ 
+
