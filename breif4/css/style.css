@@ -298,7 +298,7 @@ background-color: #C49D48;
 border: none;
 border-radius: 5px;
 padding: 8px 20px;
-color: white;
+color: #efe1e1;
 font-size: 20px;
 font-weight: bold;
 margin: 56px 69px;
@@ -954,6 +954,14 @@ height: 177px;
 }
 }
 @media (min-width: 320px) and (max-width:500px){
+    #btn5 img{
+        width: 15px
+    }
+    #hspan h1{
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+    }
 #child2 {
 
 left: 15px;
@@ -991,8 +999,8 @@ width: 100%;
   position: inherit;
 }
 .div2cs {
-width: 80%;
-margin-left: 1pc;
+width: 90%;
+margin: auto;
 
 }
 #div2child div:nth-of-type(2) h1 {
@@ -1018,19 +1026,20 @@ display: none;
 margin-top: 5%;
 }
 .div1gb div:first-child {
-margin-left: 6%;
-width: 80%;
+margin:auto;
+width: 90%;
 }
 #h1h {
-margin: 55px 0px 0px 20px;
+margin: 55px 20px 0px 20px;
+text-align: center;
 }
 .chgb1 {
 flex-direction: column;
 }
 #chgb1c {
-margin-left: 1pc;
-width: 100%;
-height: 350px;
+width: 90%;
+height: 330px;
+margin: auto;
 }
 .childs {
 width: 100%;
@@ -1038,21 +1047,22 @@ margin-top: 0px;
 }
 
 .ddcenter p {
-margin-left: 1pc;
-font-size: 15px;
+margin: 5px auto;
+font-size: 13px;
 width: 290px;
 }
 .div1gb div:nth-of-type(2) p {
-font-size: 15px;
+font-size: 12px;
+margin: auto;
 }
 #btn5 {
 font-size: 12px;
 margin: 30px 90px;
 }
 .drow {
-height: 165px;
-margin-left: 25px;
-width: 89%;
+    height: 165px;
+    margin-left: 13px;
+    width: 90%;
 }
 #im1g {
 height: 116px;
@@ -1103,7 +1113,7 @@ height: 15px;
 font-size: 10px;
 }
 .divsfooter {
-margin-left: 0pc;
+margin:auto;
 height: 800px;
 flex-direction: column;
 }
@@ -1111,11 +1121,10 @@ flex-direction: column;
 width: 100%;
 margin-top: 20px;
 text-align: center;
-margin-left: 10px;
 }
 .chfooter p:nth-of-type(1) {
 margin: 55px 0px 22px 29px;
-font-size: 15px;
+font-size: 16px;
 }
 .chfooter p:nth-of-type(2) {
 margin-left: 10%;
@@ -1304,6 +1313,9 @@ margin-left: -215px;
     #checkOne:not(:checked) ~ ul #li1 {
     
     left: 10pc;
+    }
+    .drow{
+        height: auto;
     }
 
 }
